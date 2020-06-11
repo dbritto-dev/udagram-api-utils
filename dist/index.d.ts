@@ -5,3 +5,4 @@ export declare type AppConfig = {
     corsOriginWhitelist: Array<string>;
 };
 export declare const createApp: ({ corsOriginWhitelist, }: AppConfig) => express.Application;
+export declare const routerToTable: (router: express.Router) => string;
